@@ -1,0 +1,52 @@
+.videos {
+    flex: .8;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.videos > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.videoCard {
+    width: 270px;
+    margin-bottom: 40px;
+}
+
+.videoCardThumbnail {
+    height: 140px;
+    width: 250px;
+}
+
+.recommendedVideos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoCardInfo {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoText {
+    margin-left: 7px;
+}
+
+.videoText > h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.videoText > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.videoCardAvatar {
+    height: 30px !important;
+    width: 30px !important;
+}
+

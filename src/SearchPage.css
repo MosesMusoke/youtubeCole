@@ -1,0 +1,94 @@
+
+.searchPage {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.searchPageFilter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.searchPageFilter > h2 {
+    margin-left: 10px;
+    letter-spacing: .3rem;
+}
+
+.searchPage > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.channelRow {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channelRowText {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRowText > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRowLogo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRowText > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.videosRow {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videosRow > img {
+    object-fit: contain;
+    width: 246px;
+    height: 130px;
+}
+
+.videosRowText {
+    margin-left: 14px;
+}
+
+.videosRowDescription {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #606060;
+}
+
+.videosRowHeadline {
+    font-size: 15px;
+    color: gray;
+}
+
+.videosRowSubsNumber {
+    font-weight: bolder;
+    color: rgba(84, 157, 211);
+}
+
+.videosRowSubscribers {
+    background-color: lightgray;
+    padding: 2px;
+}
+
+

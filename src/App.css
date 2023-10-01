@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+.mainDisplay {
+  display: flex;
+}
+
+.optional {
+  width: 100%;
+  height: 80vh;
+}
+
+
+
+
+
